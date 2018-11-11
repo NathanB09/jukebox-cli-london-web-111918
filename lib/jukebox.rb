@@ -39,3 +39,12 @@ end
 def exit_jukebox
   p "Goodbye"
 end
+
+def run(songs)
+  help
+  p "Please enter a command:"
+  user_input = gets.chomp
+  until user_input == "exit"
+
+  end
+end
