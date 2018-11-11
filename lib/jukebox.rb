@@ -41,17 +41,19 @@ def exit_jukebox
 end
 
 def run(songs)
-  help
   p "Please enter a command:"
   user_input = gets.chomp
   if user_input == "exit"
     exit_jukebox
   else
     case user_input
+    when "help"
+      help
     when "list"
       list(songs)
     when "play"
       play(songs)
     end
+    run(songs)
   end
 end
