@@ -25,7 +25,7 @@ end
 def play(songs)
   p "Please enter a song name or number:"
   user_input = gets.chomp
-  songs.each do |song|
+  songs.find do |song|
     if user_input == song || user_input == (songs.index(song) + 1).to_s
       p "Playing #{song}"
     else
