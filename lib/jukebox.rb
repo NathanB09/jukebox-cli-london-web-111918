@@ -11,13 +11,11 @@ songs = [
 ]
 
 def help
-  p <<~help_message\n
-    I accept the following commands:
-    - help : displays this help message
-    - list : displays a list of songs you can play
-    - play : lets you choose a song to play
-    - exit : exits the program
-  help_message
+    p "I accept the following commands:"
+    p "- help : displays this help message"
+    p "- list : displays a list of songs you can play"
+    p "- play : lets you choose a song to play"
+    p "- exit : exits the program"
 end
 
 def list(songs)
