@@ -12,11 +12,11 @@ songs = [
 
 def help
   p <<-help_message
-  I accept the following commands:
-  - help : displays this help message
-  - list : displays a list of songs you can play
-  - play : lets you choose a song to play
-  - exit : exits the program
+  I accept the following commands:\n
+  - help : displays this help message\n
+  - list : displays a list of songs you can play\n
+  - play : lets you choose a song to play\n
+  - exit : exits the program\n
   help_message
 end
 
