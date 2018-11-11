@@ -14,13 +14,17 @@
 
 def help
   #this method should be the same as in jukebox.rb
-
+  p "I accept the following commands:"
+  p "- help : displays this help message"
+  p "- list : displays a list of songs you can play"
+  p "- play : lets you choose a song to play"
+  p "- exit : exits the program"
 end
 
 
 
 def list(my_songs)
-  #this method is different! Collect the keys of the my_songs hash and 
+  #this method is different! Collect the keys of the my_songs hash and
   #list the songs by name
 end
 
@@ -33,7 +37,7 @@ def play(my_songs)
   #if it isn't, tell them their choice is invalid
   #if it is, play the song using the system 'open <file path>' syntax
   #get the file path of the song by looking it up in the my_songs hash
-  
+
 end
 
 def exit_jukebox
