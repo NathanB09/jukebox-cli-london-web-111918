@@ -44,7 +44,8 @@ def play(my_songs)
     my_songs.each do |song, path|
       if user_input == song
         p "Playing #{song}"
-        start "" path exit
+        start "" path
+        exit
       end
     end
   else
