@@ -11,7 +11,7 @@ songs = [
 ]
 
 def help
-  p <<~help_message
+  p <<~help_message\n
     I accept the following commands:
     - help : displays this help message
     - list : displays a list of songs you can play
