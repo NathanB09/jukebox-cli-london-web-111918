@@ -43,6 +43,7 @@ def play(my_songs)
   if my_songs.include?(user_input)
     my_songs.each do |song, path|
       if user_input == song
+        p "Playing #{song}"
         system "open "" #{path}"
       end
     end
