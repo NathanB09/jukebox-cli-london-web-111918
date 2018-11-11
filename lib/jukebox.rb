@@ -20,11 +20,11 @@ def help
   help_message
 end
 
-def play(song)
-
+def list(songs)
+  songs.each {|song| p "#{songs.index(song) + 1}. #{song}"}
 end
 
-def list
+def play(song)
 
 end
 
