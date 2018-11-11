@@ -43,6 +43,7 @@ end
 
 def exit_jukebox
   #this method is the same as in jukebox.rb
+  p "Goodbye"
 end
 
 def run(my_songs)
